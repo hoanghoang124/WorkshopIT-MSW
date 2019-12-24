@@ -1,0 +1,205 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	background-color: #313439;
+}
+/*header*/
+.top-nav {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 98%;
+}
+.logo {
+	margin: 10px;
+	font-size: 25px;
+	border:none;
+	border-radius: 5px;
+	background-color: #7b8495;
+	height: 50px;
+	width: 450px;
+}
+.login{
+	margin: 10px;	
+	font-size: 25px;
+	border: none;
+	border-radius: 5px;
+	background-color: #7b8495;
+	height: 50px;
+	width: 140px;
+	float: right;
+}
+/*main*/
+.welcome-wrapper{
+	margin: auto;
+	text-align: center;
+	border-style: none;
+	border-radius: 20px;
+	background-color: #292a2e;
+	width: 70%;
+}
+h1 {
+	padding-top: 10px;
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 100px;
+}
+p{
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}
+.folder-wrapper{
+	display: block;
+	margin: auto;
+	margin-top: 100px;
+	text-align: center;
+	border-style: none;
+	border-radius: 20px;
+	background-color: #292a2e;
+	width: 70%;
+	height: 350px;
+}
+.folder-wrapper-container {
+	background:red;
+	display: block;
+	margin: auto;
+	width: 80%;
+	height: 100%;
+}
+.folder-1 {
+	margin-top: 70px;
+	height: 200px;
+	margin-left: -310px;
+	width: 200px;
+	color: White;
+	font-weight: bold;
+	background-color: #467dfc;
+	display: inline-block;
+	border-radius: 20px;
+	font-size: 20px;
+	left: 0%;
+	position: relative;
+}
+.folder-2 {
+	height: 200px;
+	width: 200px;
+	color: White;
+	font-weight: bold;
+	background-color: #7b8495;
+	display: inline-block;
+	border-radius: 20px;
+	font-size: 40px;
+	left: 10%;
+	position: relative;
+}
+.folder-3 {
+	height: 200px;
+	width: 200px;
+	color: White;
+	font-weight: bold;
+	background-color: #fe8f47;
+	display: inline-block;
+	border-radius: 20px;
+	font-size: 40px;
+	left:20%;
+	position: relative;
+}
+.folder-4 {
+	height: 200px;
+	width: 200px;
+	color: White;
+	font-weight: bold;
+	background-color: #292a2e;
+	display: inline-block;
+	border-radius: 20px;
+	font-size: 40px;
+	left: 30%;
+	position: relative;
+}
+.ads-wrapper{
+	display: block;
+	margin: auto;
+	margin-top: 100px;
+	text-align: center;
+	border-style: none;
+	border-radius: 20px;
+	background-color: #292a2e;
+	width: 70%;
+	height: 650px;
+}
+.ads-wrapper-container {
+	background: white;
+	display: block;
+	margin: auto;
+	width: 95%;
+	height: 100%;
+}
+.ads-wrapper-1 {
+	background: red;
+	width: 100%;
+	height: 49%;
+}
+.ads-wrapper-1-content {
+	width: 50%;
+	height: 100%;
+	background: white;
+	position: relative;
+	left: 0%;
+}
+.ads-wrapper-1-image {
+	margin-top: -319px;
+	width: 50%;
+	height: 100%;
+	background: white;
+	position: relative;
+	left: 50%;
+}
+.ads-wrapper-2 {
+	background: red;
+	width: 100%;
+	height: 49%;
+}
+.ads-wrapper-2-image {
+	margin-top: -338px;
+	width: 50%;
+	height: 100%;
+	background: blue;
+	position: relative;
+	left: 0%
+}
+.ads-wrapper-2-content {
+	margin-bottom: 20px;
+	width: 50%;
+	height: 100%;
+	background: blue;
+	position: relative;
+	left: 50%;
+}
+.categories-wrapper{
+	display: block;
+	margin:  auto;
+	margin-top: 120px;
+	text-align: center;
+	border-style: none;
+	border-radius: 20px;
+	background-color: #292a2e;
+	width: 70%;
+	height: 350px;
+}
+
+footer {
+	margin: auto;
+	width: 100%;
+	text-align: center;
+	background-color: red;
+}
+.copyright{
+	float: left;
+	margin: 20px;
+}
+.teaminfo {
+	float: right;
+	margin: 20px;
+}
